@@ -20,6 +20,7 @@ nav {
 .nav-links div {
   padding-left: 20px;
   line-height: 52.59px;
+  cursor: pointer;
 }
 
 .nav-links div:hover {
