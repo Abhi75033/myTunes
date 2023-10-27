@@ -279,9 +279,31 @@ hr{
     display: none;
 }
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-p{
+    display: none;
+}
+
 /* Responsive */
 @media screen and ( max-width:600px){
+    .mobile-menu-icon{
+        display: block;
+        float: right;
+        padding-top: 10px;
+    }
+    .mobile-menu-icon i{
+        font-size: 25px;
+        padding-right: 18px;
+    }
+
     nav{
+        width: 100%;
+    }
+
+    .nav-links{
         display: none;
     }
 
@@ -289,12 +311,59 @@ hr{
         display: none;
     }
     .background-img{
-        display: none;
+       height: 200px;
     }
 
     .background-img02{
-        display: none;
+       width: 100%;
     }
+    .logo{
+        padding-top: 0px;
+    }
+    .logo i{
+        font-size: 30px;
+    }
+    .logo h2{
+        font-size: 25px;
+    }
+
+    .container div:nth-child(2) h2{
+        font-size: 25px;
+    }
+
+
+
+    .container div:nth-child(3) p{
+padding-left: 0;
+padding-right: 0;
+font-size: 18px;
+text-align: justify;
+margin-left: 5px;
+margin-right: 10px;
+    }
+    .container div:nth-child(5) p{
+        padding-left: 10px;
+    }
+
+    .container div:nth-child(6) img {
+        padding-left: 0;
+        margin-left: 20px;
+    }
+
+    .container div:nth-child(4){
+        padding-left: 0px;
+        margin-left: 120px;
+        padding-top: 30px;
+    }
+
+    .container div:nth-child(4) button{
+        padding: 15px 20px;
+        font-size: 10px;
+    }
+    .background-img02{
+        height: 920px;
+    }
+
     .third-Section{
         display: none;
     }
